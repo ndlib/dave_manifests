@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/manifest",
+  "@type": "sc:Manifest",
+  "label": "El Duende",
+  "description": "A rare satirical periodical published in 1830s Peru.",
+  "license": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "attribution": "The Library of José Durand, Separtment of Special Collections, Hesburgh Libraries of Notre Dame.",
+  "metadata": [
+    {
+      "label": "Issue",
+      "value": "6"
+    },
+    {
+      "label": "Date",
+      "value": "June 10, 1830"
+    },
+    {
+      "label": "Place of Publication",
+      "value": "Cuzco"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "continuous",
+      "canvases": [
+        {
+          "@id": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/0",
+          "@type": "sc:Canvas",
+          "width": 2000,
+          "height": 1800,
+          "label": "01",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/0",
+              "resource": {
+                "@id": "https://honeypot.library.nd.edu/images/DAVE/004/097/000/010/El_Duende_5_000001.jpg",
+                "@type": "dcterms:Image",
+                "width": 2000,
+                "height": 1800,
+                "format": "image/jpeg"
+              },
+              "motivation": "sc:painting"
+            }
+          ]
+        },
+        {
+          "@id": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/1",
+          "@type": "sc:Canvas",
+          "width": 2000,
+          "height": 1800,
+          "label": "02",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/1",
+              "resource": {
+                "@id": "https://honeypot.library.nd.edu/images/DAVE/004/097/000/010/El_Duende_5_000002.jpg",
+                "@type": "dcterms:Image",
+                "width": 2000,
+                "height": 1800,
+                "format": "image/jpeg"
+              },
+              "motivation": "sc:painting"
+            }
+          ]
+        },
+        {
+          "@id": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/2",
+          "@type": "sc:Canvas",
+          "width": 2000,
+          "height": 1800,
+          "label": "03",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/2",
+              "resource": {
+                "@id": "https://honeypot.library.nd.edu/images/DAVE/004/097/000/010/El_Duende_5_000003.jpg",
+                "@type": "dcterms:Image",
+                "width": 2000,
+                "height": 1800,
+                "format": "image/jpeg"
+              },
+              "motivation": "sc:painting"
+            }
+          ]
+        },
+        {
+          "@id": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/3",
+          "@type": "sc:Canvas",
+          "width": 2000,
+          "height": 1800,
+          "label": "04",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://rarebooks.library.nd.edu/digital/bookreader/El_Duende/canvas/3",
+              "resource": {
+                "@id": "https://honeypot.library.nd.edu/images/DAVE/004/097/000/010/El_Duende_5_000004.jpg",
+                "@type": "dcterms:Image",
+                "width": 2000,
+                "height": 1800,
+                "format": "image/jpeg"
+              },
+              "motivation": "sc:painting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
